@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character encoding and viewport settings for responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the website -->
+    <title>DEEZERS</title>
+    <!-- Linking the external stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Favicon for the website -->
+    <link rel="icon" href="./profile-photo/logo.jpg" />
+    <!-- <link rel="icon" href="../profile-photo/bfavicon.png" /> -->
+
+    <!-- Preconnecting to Google Fonts for optimized loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Music&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section containing the logo, search bar, and categories -->
+    <div class="header">
+      <!-- Logo Section -->
+      <div class="logo">
+        <h1>DEEZERS</h1>
+        <!-- Main title of the music app -->
+        <!-- Menu icon for toggling the sidebar (or menu) -->
+        <ion-icon
+          class="menu-icon"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </div>
+
+      <!-- Search bar for entering music names -->
+      <div class="search-bar">
+        <input type="text" id="searchMusic" placeholder="Enter Music Name..." />
+        <!-- Search input field -->
+        <ion-icon class="search-icon" name="search-outline"></ion-icon>
+        <!-- Search icon -->
+      </div>
+
+      <!-- Category selection dropdown for filtering songs -->
+      <div class="categories">
+        <select id="selectOptions">
+          <option value="all">ALL SONGS</option>
+          <!-- Option for all songs -->
+          <option value="energise">ENERGISE</option>
+          <!-- Option for energising songs -->
+          <option value="relax">RELAX</option>
+          <!-- Option for relaxing songs -->
+          <option value="motivational">MOTIVATIONAL</option>
+          <!-- Option for motivational songs -->
+        </select>
+      </div>
+    </div>
+
+    <!-- Main container where the featured songs and other content will be rendered -->
+    <div class="container">
+      <!-- Heading for the Featured Songs section -->
+      <h1 class="featured-songs">FEATURED SONGS</h1>
+
+      <!-- Container for displaying song or playlist that is currently playing -->
+      <div class="when-playing-container">
+        <div id="whenSongPlaying"></div>
+        <!-- Placeholder for song info -->
+        <div id="whenPlaylistPlaying"></div>
+        <!-- Placeholder for playlist info -->
+      </div>
+
+      <!-- Placeholder to render all songs dynamically from JavaScript -->
+      <div id="renderAllSongs"></div>
+    </div>
+
+    <!-- Linking external JavaScript file for functionality -->
+    <script src="./app.js"></script>
+
+    <!-- Linking Ionicons for icons used in the app -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

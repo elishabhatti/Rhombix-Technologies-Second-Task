@@ -1,0 +1,455 @@
+/* removeing default styling */
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.35s;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+/* added white color in the heading and the paragraphs */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+/* list syle none */
+li {
+  list-style: none;
+}
+/* added black type color in the body */
+body {
+  background-color: #0f0d13;
+}
+/* header CSS  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #0f0d13;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid lightgray;
+  transition: all 0.3s ease;
+}
+/* search bar and the categories section styled */
+
+.search-bar,
+.categories {
+  display: flex;
+  align-items: center;
+}
+
+/* Menu icon style */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+/* search bar styled */
+
+.search-bar {
+  width: 600px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2c31;
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+/* Responsive styles */
+@media (max-width: 1100px) {
+  .categories,
+  .search-icon,
+  .search-bar {
+    display: none; /* Hide search bar and categories by default */
+  }
+
+  .menu-icon {
+    display: block; /* Show the menu icon */
+  }
+  #searchMusic,
+  .search-bar {
+    width: 100%;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  /* adding the styled throght the function */
+  .header-expanded .search-bar,
+  .header-expanded .categories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+/* search ar container */
+#searchMusic {
+  outline: none;
+  background-color: #2d2c31;
+  color: white;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+}
+/* search icon styled */
+.search-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* musci card title icon styled */
+.music-card-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 10px 0;
+}
+/* displau songs styled */
+#renderAllSongs {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+  padding: 0 20px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/* music card styled */
+.music-card {
+  display: flex;
+  border-radius: 10px;
+  width: 450px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #a238ff;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  padding: 15px;
+}
+/* midesection styled */
+.midsection {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+/* when the song is playing styled */
+.when-playing-container {
+  display: flex;
+  justify-content: center;
+}
+/* music card photo styled */
+.music-card-photo {
+  width: 60%;
+  border-radius: 50%;
+}
+/* featured songs styled */
+.featured-songs {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+/* play button styled */
+.play-button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+/* usuing flex to horizontol everything which container flez */
+.flex {
+  display: flex;
+}
+/* skip button styled */
+.skip-button {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+/* reverse button styled */
+.reverse-button {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+/* h4 styled */
+h4 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+/* Style for the range input track */
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px; /* Track height */
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Space between sliders */
+}
+
+/* Centered track */
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  /* background: linear-gradient(90deg, #4caf50, #1d8cf8); */
+  background-color: #0f0d13;
+  border-radius: 5px;
+}
+
+/* Center the thumb (circular handle) */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px); /* Center the thumb vertically */
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Optional: Centering in Firefox */
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  background: black;
+  border-radius: 5px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #2d2c31;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px); /* Center the thumb */
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Add this style for both sliders */
+input[type="range"] {
+  margin-bottom: 5px; /* Adjust spacing as needed */
+}
+
+/* OR, if you want to specifically target only the first slider for spacing */
+input[type="range"]:first-of-type {
+  margin-bottom: 10px; /* Adds space between the two sliders */
+}
+/* select options styled */
+#selectOptions {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #2d2c31;
+  color: white;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+/* options styled */
+option {
+  cursor: pointer;
+}
+/* ion icons hovers */
+ion-icon:hover {
+  color: #a238ff;
+}
+/* anchor tag hover */
+a:hover {
+  color: #a238ff;
+}
+/* container styled */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+/* adding purple color that contained purple class */
+.purple-color {
+  background-color: #a238ff;
+}
+/* adding blue color that contained purple class */
+.blue {
+  background-color: #84bac6;
+}
+/* adding orange color that contained purple class */
+.orange {
+  background-color: #ad3e3d;
+}
+/* release styles */
+.relases {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* playing music card styled  */
+.music-card-playing {
+  width: 60%;
+  height: max-content;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  border: 2px solid #a238ff;
+  margin: 10px;
+  justify-content: space-between;
+  text-align: left;
+  background-color: #2d2c31;
+  padding: 20px;
+}
+/* playing playlist styled  */
+.music-playlist-playing {
+  width: 40%;
+  padding: 20px;
+}
+/* when playing playlist styled  */
+.when-playing-descriptoin {
+  margin: 20px;
+  line-height: 25px;
+}
+/* video description styled  */
+.video-description {
+  padding: 10px 20px;
+}
+/* playing profile phpto styled  */
+.playing-profile-photo {
+  width: 50%;
+  padding: 10px;
+  animation: rounded 2.5s linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+}
+/*volume controll styled  */
+.volumeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* flex the music items styled  */
+.flex-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* flex the music icon styled  */
+.musicIcon {
+  font-size: 25px;
+  margin-right: 10px;
+  color: white;
+}
+/* animation for the prfile photo whn playing  */
+@keyframes rounded {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 1500px) {
+  .music-card {
+    width: 600px;
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 1346px) {
+  .music-card {
+    width: 500px;
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 1138px) {
+  .music-card {
+    width: 400px;
+  }
+  .when-playing-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #whenSongPlaying,
+  #whenPlaylistPlaying {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0;
+    align-items: center;
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 943px) {
+  .midsection {
+    width: 100%;
+  }
+  .music-card {
+    width: 300px;
+    flex-direction: column;
+  }
+  .play-button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 800px) {
+  .music-card {
+    width: 200px;
+    margin: 10px;
+    
+    flex-direction: column;
+  }
+  .playing-profile-photo {
+    width: 80%;
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 600px) {
+  #whenSongPlaying {
+    flex-direction: column;
+  }
+}
+/* media queries for responsiveness */
+@media (max-width: 534px) {
+  .music-card {
+    width: 100%;
+  }
+}

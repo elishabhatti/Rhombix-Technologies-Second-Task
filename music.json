@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Tenzo Brazil",
+    "src": "/music/VID-20241105-WA0001.mp4",
+    "profilePhoto": "/profile-photo/tenzoo-brazil.jpeg",
+    "value": "Energise",
+    "description": "Feel the rhythm and energy of Tenzo Brazil, a vibrant track that brings the essence of Brazilian beats to life. Perfect for those looking to add a lively, dynamic atmosphere to any moment, with rhythms that build excitement and intensity."
+  },
+  {
+    "name": "Killer",
+    "src": "/music/VID-20241105-WA0002.mp4",
+    "profilePhoto": "/profile-photo/killer.jpeg",
+    "value": "Motivational",
+    "description": "Killer is the ultimate motivator, blending powerful beats with an empowering melody. This track ignites a fire within, pushing listeners to take on any challenge and channel their inner strength and determination."
+  },
+  {
+    "name": "Pavillion",
+    "src": "/music/VID-20241105-WA0003.mp4",
+    "profilePhoto": "/profile-photo/pavilion.jpeg",
+    "value": "Motivational",
+    "description": "Let Pavillion elevate your spirits with its inspiring tune. This track combines uplifting harmonies with driving beats, creating the perfect soundtrack for those who aim high and refuse to settle. It’s a powerful anthem for motivation."
+  },
+  {
+    "name": "Brodyaga Funk 2",
+    "src": "/music/VID-20241105-WA0004.mp4",
+    "profilePhoto": "/profile-photo/brodyaga.jpeg",
+    "value": "Motivational",
+    "description": "Brodyaga Funk 2 is a bold, energetic track with an unmistakable groove. It’s ideal for those moments when you need a boost of confidence and rhythm, capturing the adventurous spirit of those who live life on their own terms."
+  },
+  {
+    "name": "Shadow Lady",
+    "src": "/music/VID-20241105-WA0005.mp4",
+    "profilePhoto": "/profile-photo/shadow-lady.jpeg",
+    "value": "Relax",
+    "description": "Shadow Lady is a soothing and calming experience, wrapping listeners in a blanket of relaxation. Its gentle rhythms and soft undertones make it the perfect track to unwind and reflect on life’s quieter moments."
+  },
+  {
+    "name": "Siholuette",
+    "src": "/music/VID-20241105-WA0006.mp4",
+    "profilePhoto": "/profile-photo/siholuette.jpeg",
+    "value": "Motivational",
+    "description": "With its powerful beats and inspiring notes, Siholuette fuels ambition and resilience. This track is designed for those who dare to dream big, with a soundscape that encourages moving forward and pushing limits."
+  },
+  {
+    "name": "Brodyaga Funk",
+    "src": "/music/VID-20241105-WA0007.mp4",
+    "profilePhoto": "/profile-photo/brodyaga2.jpeg",
+    "value": "Motivational",
+    "description": "Brodyaga Funk is a high-energy track that infuses a funky groove with intense motivational vibes. It’s the ideal choice for those who need a soundtrack that matches their drive and determination to conquer the day."
+  },
+  {
+    "name": "Wille",
+    "src": "/music/VID-20241105-WA0008.mp4",
+    "profilePhoto": "/profile-photo/wilee.jpeg",
+    "value": "Relax",
+    "description": "Let Wille transport you to a world of calm and peace. This relaxing track features soft melodies that invite a sense of tranquility, perfect for unwinding after a long day or simply enjoying a moment of quiet."
+  },
+  {
+    "name": "Spit in My Face",
+    "src": "/music/VID-20241105-WA0009.mp4",
+    "profilePhoto": "/profile-photo/spitin.jpeg",
+    "value": "Relax",
+    "description": "Spit in My Face brings an unexpected twist of relaxation with its mellow beats. Designed to ease the mind, this track allows you to let go and sink into a peaceful, reflective state of mind."
+  },
+  {
+    "name": "Babydoll",
+    "src": "/music/VID-20241105-WA0011.mp4",
+    "profilePhoto": "/profile-photo/babydoll.jpeg",
+    "value": "Relax",
+    "description": "Babydoll is a gentle and soothing track that offers a comforting embrace through its soft sounds. With its calming aura, it’s perfect for relaxing or creating a serene atmosphere wherever you are."
+  },
+  {
+    "name": "Polozhenie",
+    "src": "/music/VID-20241105-WA0012.mp4",
+    "profilePhoto": "/profile-photo/polozhnie.jpeg",
+    "value": "Motivational",
+    "description": "Feel empowered with Polozhenie, a track that combines a strong beat with an inspiring melody. It’s perfect for keeping you motivated and focused on your goals, pushing you to make progress."
+  },
+  {
+    "name": "Wake Up",
+    "src": "/music/VID-20241105-WA0013.mp4",
+    "profilePhoto": "/profile-photo/wakeup.jpeg",
+    "value": "Motivational",
+    "description": "Wake Up is a refreshing anthem that brings vitality and optimism to start your day. Its lively beats and uplifting notes make it an ideal motivator for setting a positive tone for the day ahead."
+  },
+  {
+    "name": "Go",
+    "src": "/music/VID-20241105-WA0014.mp4",
+    "profilePhoto": "/profile-photo/go.jpeg",
+    "value": "Energise",
+    "description": "Go is an intense, energy-filled track crafted to get you moving. With its fast-paced rhythms, it’s perfect for workouts, sprints, or any moment when you need a boost of energy and enthusiasm."
+  },
+  {
+    "name": "Babydoll Remix",
+    "src": "/music/VID-20241105-WA0015.mp4",
+    "profilePhoto": "/profile-photo/babydollremix.jpeg",
+    "value": "Relax",
+    "description": "Babydoll Remix brings a new twist to the original, infusing relaxed vibes with a subtle beat. It’s great for winding down while keeping a soft, rhythmic flow."
+  },
+  {
+    "name": "Link Feat",
+    "src": "/music/VID-20241105-WA0016.mp4",
+    "profilePhoto": "/profile-photo/link.jpeg",
+    "value": "Relax",
+    "description": "Link Feat is a smooth and soothing track that features light, airy melodies. Ideal for de-stressing and enjoying a few peaceful moments in a busy day."
+  },
+  {
+    "name": "Henson Death",
+    "src": "/music/VID-20241105-WA0017.mp4",
+    "profilePhoto": "/profile-photo/death.jpeg",
+    "value": "Energise",
+    "description": "Henson Death brings an intense, dark energy, ideal for those who need a bold and fierce soundtrack. It’s packed with driving beats, setting the tone for an adrenaline-filled experience."
+  },
+  {
+    "name": "Royality",
+    "src": "/music/VID-20241105-WA0018.mp4",
+    "profilePhoto": "/profile-photo/royality.jpeg",
+    "value": "Energise",
+    "description": "Royality is a powerful anthem with a majestic tone. This track captures the essence of confidence and self-assurance, designed to uplift and energize with its regal vibes."
+  },
+  {
+    "name": "Mc Orsen",
+    "src": "/music/VID-20241105-WA0019.mp4",
+    "profilePhoto": "/profile-photo/mcorsen.jpeg",
+    "value": "Relax",
+    "description": "Mc Orsen brings a mellow, laid-back vibe to help you unwind. It’s the perfect companion for moments when you just need to relax and let go of any stress."
+  }
+]
